@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using QAProject.Business.Businesses;
 using QAProject.Common.ViewModels;
@@ -37,25 +38,10 @@ public class AccountController : ControllerBase
 	[Authorization]
 	[HttpGet]
 	[Route("Logout")]
-	public async Task<IActionResult> Logout()
+	public async Task<ActionResult> Logout()
 	{
-		try
-		{
 			await HttpContext.SignOutAsync();
-			return RedirectToPage("/Index");
-		}
-		catch (Exception ex)
-		{
-			_logger.Error(new MongoLog
-			{
-				ControllerName = nameof(UserController),
-				ActionName = nameof(Logout),
-				Exception = ex,
-				Username = HttpContext.User.Claims.FirstOrDefault(x => x.Type == "Username")
-					?.Value
-			}.LogFullData());
 			return Ok();
-		}
 	}
 }
 
