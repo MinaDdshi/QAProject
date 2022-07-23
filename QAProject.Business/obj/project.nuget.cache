@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "scXf2L72Ff1mSTXRBRjNzjA73c1TJjxzl0OwPAVN1Ubx//x5sPpwve0hvo5fk0ai/Mc07VTa+yJ8HYcL+h4t9g==",
+  "dgSpecHash": "4mED0uZ0oRuxUUUEyxXlA5AkwMdkZ4XBgSFL7ZDGHp/6bWmksF/nzTArEtMhAwv+seEV7KgQZKMP8PuRdbrHFw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Business\\QAProject.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\automapper.collection\\8.0.0\\automapper.collection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",

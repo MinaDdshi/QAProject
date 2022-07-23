@@ -1,0 +1,12 @@
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\bin\Debug\net6.0\QAProject.Model.deps.json
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\bin\Debug\net6.0\QAProject.Model.dll
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\bin\Debug\net6.0\QAProject.Model.pdb
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\obj\Debug\net6.0\QAProject.Model.csproj.AssemblyReference.cache
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\obj\Debug\net6.0\QAProject.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\obj\Debug\net6.0\QAProject.Model.AssemblyInfoInputs.cache
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\obj\Debug\net6.0\QAProject.Model.AssemblyInfo.cs
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\obj\Debug\net6.0\QAProject.Model.csproj.CoreCompileInputs.cache
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\obj\Debug\net6.0\QAProject.Model.dll
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\obj\Debug\net6.0\refint\QAProject.Model.dll
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\obj\Debug\net6.0\QAProject.Model.pdb
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Model\obj\Debug\net6.0\ref\QAProject.Model.dll

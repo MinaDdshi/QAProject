@@ -30,7 +30,7 @@ public class BaseBusiness<T> : IBaseBusiness<T> where T : BaseEntity
 
 	public async Task<List<T>> ReadAll(SieveModel sieveModel, CancellationToken cancellationToken)
 	{
-		var data = await _repository.SelectAll(sieveModel, cancellationToken);
+		var data = await _repository.SelectAll(sieveModel, null, cancellationToken);
 		await _unitOfWork.CommitAsync(cancellationToken);
 		return data;
 		

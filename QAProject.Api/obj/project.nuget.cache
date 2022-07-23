@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "80lsR85ks3nknbsSW0oZRUC0phLb6nIIPrtpINBwVKxKg7D91kSTBgmj4KBw2m1CO0EjGMxHFG2S3unmLsnSHA==",
+  "dgSpecHash": "OikDGgLWvYCqLmJs7eowpZSsblJDS0XF+20MZln1rjTDVhM63l5vyY1HFv0Y1Cqki8+5WWy73137OBLoudHpwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Api\\QAProject.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\automapper.collection\\8.0.0\\automapper.collection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

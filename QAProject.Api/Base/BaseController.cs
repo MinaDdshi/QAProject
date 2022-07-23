@@ -35,7 +35,8 @@ public class BaseController<T> : ControllerBase, IBaseController<T> where T : Ba
 	[HttpDelete]
 	public async Task Delete(T t, CancellationToken cancellationToken) =>
 		await _business.Delete(t, cancellationToken);
-	
+
+	[HttpDelete("{Id}")]
 	public async Task Delete(int Id, CancellationToken cancellationToken) =>
 		await _business.Delete(Id, cancellationToken);
 

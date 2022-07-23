@@ -1,0 +1,15 @@
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\bin\Debug\net6.0\QAProject.DataAccess.deps.json
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\bin\Debug\net6.0\QAProject.DataAccess.dll
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\bin\Debug\net6.0\QAProject.DataAccess.pdb
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\bin\Debug\net6.0\QAProject.Model.dll
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\bin\Debug\net6.0\QAProject.Model.pdb
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\obj\Debug\net6.0\QAProject.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\obj\Debug\net6.0\QAProject.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\obj\Debug\net6.0\QAProject.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\obj\Debug\net6.0\QAProject.DataAccess.AssemblyInfo.cs
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\obj\Debug\net6.0\QAProject.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\obj\Debug\net6.0\QAProject.DataAccess.csproj.CopyComplete
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\obj\Debug\net6.0\QAProject.DataAccess.dll
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\obj\Debug\net6.0\refint\QAProject.DataAccess.dll
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\obj\Debug\net6.0\QAProject.DataAccess.pdb
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.DataAccess\obj\Debug\net6.0\ref\QAProject.DataAccess.dll
