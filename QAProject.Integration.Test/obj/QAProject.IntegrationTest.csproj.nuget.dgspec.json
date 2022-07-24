@@ -1,0 +1,564 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Integration.Test\\QAProject.IntegrationTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Api\\QAProject.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Api\\QAProject.Api.csproj",
+        "projectName": "QAProject.Api",
+        "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Api\\QAProject.Api.csproj",
+        "packagesPath": "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mina.Dadashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.samansalamat.ir/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Business\\QAProject.Business.csproj": {
+                "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Business\\QAProject.Business.csproj"
+              },
+              "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\QAProject.Model.csproj": {
+                "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\QAProject.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Business\\QAProject.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Business\\QAProject.Business.csproj",
+        "projectName": "QAProject.Business",
+        "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Business\\QAProject.Business.csproj",
+        "packagesPath": "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mina.Dadashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.samansalamat.ir/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Common\\QAProject.Common.csproj": {
+                "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Common\\QAProject.Common.csproj"
+              },
+              "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.DataAccess\\QAProject.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.DataAccess\\QAProject.DataAccess.csproj"
+              },
+              "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\QAProject.Model.csproj": {
+                "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\QAProject.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Common\\QAProject.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Common\\QAProject.Common.csproj",
+        "projectName": "QAProject.Common",
+        "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Common\\QAProject.Common.csproj",
+        "packagesPath": "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mina.Dadashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.samansalamat.ir/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\QAProject.Model.csproj": {
+                "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\QAProject.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.DataAccess\\QAProject.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.DataAccess\\QAProject.DataAccess.csproj",
+        "projectName": "QAProject.DataAccess",
+        "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.DataAccess\\QAProject.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mina.Dadashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.samansalamat.ir/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\QAProject.Model.csproj": {
+                "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\QAProject.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Integration.Test\\QAProject.IntegrationTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Integration.Test\\QAProject.IntegrationTest.csproj",
+        "projectName": "QAProject.IntegrationTest",
+        "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Integration.Test\\QAProject.IntegrationTest.csproj",
+        "packagesPath": "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Integration.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mina.Dadashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.samansalamat.ir/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Web\\QAProject.Web.csproj": {
+                "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Web\\QAProject.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.2.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.analyzers": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\QAProject.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\QAProject.Model.csproj",
+        "projectName": "QAProject.Model",
+        "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\QAProject.Model.csproj",
+        "packagesPath": "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mina.Dadashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.samansalamat.ir/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Sieve": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Web\\QAProject.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Web\\QAProject.Web.csproj",
+        "projectName": "QAProject.Web",
+        "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Web\\QAProject.Web.csproj",
+        "packagesPath": "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mina.Dadashi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.samansalamat.ir/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Api\\QAProject.Api.csproj": {
+                "projectPath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Api\\QAProject.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.16.1, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

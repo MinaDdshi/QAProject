@@ -195,6 +195,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
@@ -408,6 +412,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.16.1, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             },
             "Scrutor": {
               "target": "Package",

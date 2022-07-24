@@ -1,10 +1,6 @@
-C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.csproj.AssemblyReference.cache
-C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.AssemblyInfoInputs.cache
-C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.AssemblyInfo.cs
-C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.csproj.CoreCompileInputs.cache
-C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\nlog.config
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\nlog.Development.config
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\nlog.Testing.config
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\appsettings.json
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\QAProject.Web.exe
@@ -44,6 +40,9 @@ C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\Micr
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\NLog.dll
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\Scrutor.dll
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\Sieve.dll
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -78,6 +77,13 @@ C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\QAPr
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\QAProject.Common.pdb
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\QAProject.DataAccess.pdb
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\bin\Debug\net6.0\QAProject.Model.pdb
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.csproj.AssemblyReference.cache
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.AssemblyInfoInputs.cache
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.AssemblyInfo.cs
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.csproj.CoreCompileInputs.cache
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\QAProject.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Mina.Dadashi\source\repos\QAProject\QAProject.Web\obj\Debug\net6.0\scopedcss\bundle\QAProject.Web.styles.css

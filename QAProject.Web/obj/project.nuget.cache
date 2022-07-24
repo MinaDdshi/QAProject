@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fpD/WVUUUI8uwWBvum+lZcJxhzxfRbPRi+aghwRXcUq3/u8QrAx+OgblTJimVDmAIUYNr3TGY8lgwQH2BGwHXQ==",
+  "dgSpecHash": "8wcmZOxtOXB7rch2KQchlKhDDefohEytm8ESm6+v/F3gQ1jF325zztH2u7FE3RCSu08jbl0Itm4niiqqsb18YA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Web\\QAProject.Web.csproj",
   "expectedPackageFiles": [
@@ -105,6 +105,9 @@
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\nlog\\5.0.1\\nlog.5.0.1.nupkg.sha512",
+    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\nlog.extensions.logging\\5.0.1\\nlog.extensions.logging.5.0.1.nupkg.sha512",
+    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\nlog.web.aspnetcore\\5.1.0\\nlog.web.aspnetcore.5.1.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

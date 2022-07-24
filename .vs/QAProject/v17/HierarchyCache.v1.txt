@@ -1,0 +1,362 @@
+﻿++Solution 'QAProject' ‎(6 of 6 projects)
+++Infrastructure
+i:{00000000-0000-0000-0000-000000000000}:Infrastructure
+++QAProject.Api
+i:{6064ac96-a853-475a-bdd2-592c3a347ecd}:QAProject.Api
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\qaproject.api.csproj
+++Dependencies
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:>346
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:>348
+i:{85212996-e5b3-4a16-9315-310be3713a79}:>349
+i:{38d32a35-561f-4822-8913-40bdf122103e}:>347
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:>450
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>481
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:>1106
+++Base
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\base\
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\base\
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\base\
+++Contracts
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\contracts\
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\contracts\
+++IBaseController.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\contracts\ibasecontroller.cs
+++Controllers
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\controllers\
+++AccountController.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\controllers\accountcontroller.cs
+++AnswerController.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\controllers\answercontroller.cs
+++CommentAnswerController.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\controllers\commentanswercontroller.cs
+++CommentQuestionController.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\controllers\commentquestioncontroller.cs
+++PersonController.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\controllers\personcontroller.cs
+++QuestionController.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\controllers\questioncontroller.cs
+++RoleController.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\controllers\rolecontroller.cs
+++UserController.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\controllers\usercontroller.cs
+++Filters
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\filters\
+++AuthorizationAttribute.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\filters\authorizationattribute.cs
+++AuthorizationFilter.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\filters\authorizationfilter.cs
+++Analyzers
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:analyzers
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:analyzers
+i:{85212996-e5b3-4a16-9315-310be3713a79}:analyzers
+i:{38d32a35-561f-4822-8913-40bdf122103e}:analyzers
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:analyzers
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:analyzers
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:analyzers
+++Frameworks
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:frameworks
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:frameworks
+i:{85212996-e5b3-4a16-9315-310be3713a79}:frameworks
+i:{38d32a35-561f-4822-8913-40bdf122103e}:frameworks
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:frameworks
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:frameworks
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:frameworks
+++Packages
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:packages
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:packages
+i:{85212996-e5b3-4a16-9315-310be3713a79}:packages
+i:{38d32a35-561f-4822-8913-40bdf122103e}:packages
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:packages
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:packages
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:packages
+++Projects
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:projects
+i:{85212996-e5b3-4a16-9315-310be3713a79}:projects
+i:{38d32a35-561f-4822-8913-40bdf122103e}:projects
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:projects
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:projects
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:projects
+++BaseController.cs
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\base\basecontroller.cs
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\.nuget\packages\microsoft.aspnetcore.mvc.analyzers\2.2.0\analyzers\dotnet\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.api\microsoft.netcore.app
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\microsoft.netcore.app
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\microsoft.netcore.app
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\microsoft.netcore.app
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\microsoft.netcore.app
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.web\microsoft.netcore.app
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.integrationtest\microsoft.netcore.app
+++Microsoft.AspNetCore.Mvc (2.2.0)
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:>520
+++QAProject.Business
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\bin\debug\net6.0\qaproject.business.dll
+i:{6064ac96-a853-475a-bdd2-592c3a347ecd}:QAProject.Business
+++QAProject.Model
+i:{63ac0455-529d-4458-94d4-7f3e1a237cac}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\bin\debug\net6.0\qaproject.model.dll
+i:{6064ac96-a853-475a-bdd2-592c3a347ecd}:QAProject.Model
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\bin\debug\net6.0\qaproject.model.dll
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\bin\debug\net6.0\qaproject.model.dll
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\bin\debug\net6.0\qaproject.model.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\qaproject.model.csproj
+++Entities
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\entities\
+++Answer.cs
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\entities\answer.cs
+++BaseEntity.cs
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\entities\baseentity.cs
+++CommentAnswer.cs
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\entities\commentanswer.cs
+++CommentQuestion.cs
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\entities\commentquestion.cs
+++Person.cs
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\entities\person.cs
+++Question.cs
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\entities\question.cs
+++Role.cs
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\entities\role.cs
+++User.cs
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\entities\user.cs
+++UserRole.cs
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.model\entities\userrole.cs
+++Sieve (2.5.5)
+i:{816e36e3-f555-49be-be77-ac31f02a2e7f}:>490
+++QAProject.DataAccess
+i:{6064ac96-a853-475a-bdd2-592c3a347ecd}:QAProject.DataAccess
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\bin\debug\net6.0\qaproject.dataaccess.dll
+++Context
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\context\
+++Repositories
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\repositories\
+++UnitOfWork.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\unitofwork.cs
+++BaseRepository.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\base\baserepository.cs
+++QAProjectContext.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\context\qaprojectcontext.cs
+++IBaseRepository.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\contracts\ibaserepository.cs
+++IUnitOfWork.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\contracts\iunitofwork.cs
+++AnswerRepository.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\repositories\answerrepository.cs
+++CommentAnswerRepository.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\repositories\commentanswerrepository.cs
+++CommentQuestionRepository.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\repositories\commentquestionrepository.cs
+++PersonRepository.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\repositories\personrepository.cs
+++QuestionRepository.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\repositories\questionrepository.cs
+++RoleRepository.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\repositories\rolerepository.cs
+++UserRepository.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\repositories\userrepository.cs
+++UserRoleRepository.cs
+i:{85212996-e5b3-4a16-9315-310be3713a79}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.dataaccess\repositories\userrolerepository.cs
+++Microsoft.EntityFrameworkCore (6.0.7)
+i:{85212996-e5b3-4a16-9315-310be3713a79}:>533
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.7)
+i:{85212996-e5b3-4a16-9315-310be3713a79}:>534
+++QAProject.Common
+i:{6064ac96-a853-475a-bdd2-592c3a347ecd}:QAProject.Common
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\bin\debug\net6.0\qaproject.common.dll
+++Constants
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\constants\
+++Helpers
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\helpers\
+++Profiles
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\profiles\
+++ViewModels
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\viewmodels\
+++Messages.resx
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\messages.resx
+++RoleConstants.cs
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\constants\roleconstants.cs
+++PasswordHelper.cs
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\helpers\passwordhelper.cs
+++UserProfile.cs
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\profiles\userprofile.cs
+++LoginViewModel.cs
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\viewmodels\loginviewmodel.cs
+++ResourceViewModel.cs
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\viewmodels\resourceviewmodel.cs
+++UserViewModel.cs
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\viewmodels\userviewmodel.cs
+++Messages.Designer.cs
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\messages.designer.cs
+++AutoMapper (11.0.1)
+i:{38d32a35-561f-4822-8913-40bdf122103e}:>545
+++AutoMapper.Collection (8.0.0)
+i:{38d32a35-561f-4822-8913-40bdf122103e}:>544
+++Businesses
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\businesses\
+++Contract
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\contract\
+++BaseBusiness.cs
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\base\basebusiness.cs
+++AccountBusiness.cs
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\businesses\accountbusiness.cs
+++AnswerBusiness.cs
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\businesses\answerbusiness.cs
+++CommentAnswerBusiness.cs
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\businesses\commentanswerbusiness.cs
+++CommentQuestionBusiness.cs
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\businesses\commentquestionbusiness.cs
+++PersonBusiness.cs
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\businesses\personbusiness.cs
+++QuestionBusiness.cs
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\businesses\questionbusiness.cs
+++RoleBusiness.cs
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\businesses\rolebusiness.cs
+++UserBusiness.cs
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\businesses\userbusiness.cs
+++IBaseBusiness.cs
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.business\contract\ibasebusiness.cs
+++Microsoft.AspNetCore.Authentication.Cookies (2.2.0)
+i:{8e12dcdb-8df9-4a41-9e1b-a49d8e010372}:>500
+++Application
+i:{00000000-0000-0000-0000-000000000000}:Application
+++QAProject.Web
+i:{88f851a1-c5f2-4447-983b-8f9d25a6f1b2}:QAProject.Web
+++Connected Services 
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>482
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:>1107
+++Properties
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.web\properties\
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.integrationtest\properties\
+++appsettings.json
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.web\appsettings.json
+++Program.cs
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.web\program.cs
+++No service dependencies discovered
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>483
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:>1108
+++launchSettings.json
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.web\properties\launchsettings.json
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.integrationtest\properties\launchsettings.json
+++appsettings.Development.json
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.web\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.web\microsoft.aspnetcore.app
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.integrationtest\microsoft.aspnetcore.app
+++Swashbuckle.AspNetCore (6.2.3)
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>564
+++DependencyInjection.cs
+++DependencyInjectionExtension.cs
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.web\dependencyinjectionextension.cs
+++System.Resources.ResourceManager (4.3.0)
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>583
+++Microsoft.EntityFrameworkCore.InMemory (6.0.7)
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>584
+++Microsoft.EntityFrameworkCore.Tools (6.0.7)
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>585
+++Scrutor (4.2.0)
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>586
+++Swashbuckle.AspNetCore.SwaggerGen (6.4.0)
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>587
+++Swashbuckle.AspNetCore.SwaggerUI (6.4.0)
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>588
+++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.16.1)
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>589
+++FluentValidation (11.1.0)
+i:{38d32a35-561f-4822-8913-40bdf122103e}:>596
+++NewFolder
+++Validations
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\validations\
+++RoleValidator.cs
+i:{38d32a35-561f-4822-8913-40bdf122103e}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.common\validations\rolevalidator.cs
+++FluentValidation.AspNetCore (11.1.2)
+i:{2472da23-ee6a-4f02-ad7d-1a3d6b133141}:>597
+++NewFolder1
+++Tests
+i:{00000000-0000-0000-0000-000000000000}:Tests
+++Solution 'QAProject' ‎(7 of 7 projects)
+i:{00000000-0000-0000-0000-000000000000}:QAProject.sln
+++QAProject.IntegrationTest
+i:{bfef962a-0363-48ea-9267-f3bde75c36fd}:QAProject.IntegrationTest
+++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Components.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Mvc.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
+++QuestionTest.cs
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\users\mina.dadashi\source\repos\qaproject\qaproject.integrationtest\questiontest.cs
+++Microsoft.AspNetCore.Mvc.Testing (6.0.7)
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:>2021
+++Microsoft.NET.Test.Sdk (17.2.0)
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:>2022
+++xunit.extensibility.core (2.4.1)
+++FluentAssertions (6.7.0)
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:>1182
+++xunit.runner.visualstudio (2.4.5)
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:>2026
+++xunit.assert (2.4.1)
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:>2030
+++xunit (2.4.1)
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:>2043
+++xunit.analyzers
+i:{fab6687e-e331-4b93-bf82-5834cf6f4870}:c:\users\mina.dadashi\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll

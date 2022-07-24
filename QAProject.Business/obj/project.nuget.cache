@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4mED0uZ0oRuxUUUEyxXlA5AkwMdkZ4XBgSFL7ZDGHp/6bWmksF/nzTArEtMhAwv+seEV7KgQZKMP8PuRdbrHFw==",
+  "dgSpecHash": "LHPQG9CrNmZrFiti7rBqiffJpU0RLIyJXd3TTnsNsQFNZML9JcJh/W0e6Zf+lIjXoCH7j1eBuYnkxnC40prr/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.Business\\QAProject.Business.csproj",
   "expectedPackageFiles": [
@@ -52,6 +52,7 @@
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\nlog\\5.0.1\\nlog.5.0.1.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\sieve\\2.5.5\\sieve.2.5.5.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

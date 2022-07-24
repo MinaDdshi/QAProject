@@ -1,4 +1,5 @@
 ﻿using QAProject.Business.Contract;
+using QAProject.Common.ViewModels;
 using QAProject.DataAccess.Contracts;
 using QAProject.Model.Entities;
 using Sieve.Models;
@@ -22,34 +23,65 @@ public class BaseBusiness<T> : IBaseBusiness<T> where T : BaseEntity
 		_repository = repository;
 	}
 
-	public async Task Create(T t, CancellationToken cancellationToken)
+	public async Task<Response?> Create(T t, CancellationToken cancellationToken)
 	{
 		await _repository.Insert(t, cancellationToken);
 		await _unitOfWork.CommitAsync(cancellationToken);
+		return new Response
+		{
+			IsSuccess = true,
+			ChangedId = t.Id,
+			Message = "Entity Saved"
+		};
 	}
 
-	public async Task<List<T>> ReadAll(SieveModel sieveModel, CancellationToken cancellationToken)
+	public async Task<Response<List<T>>?> ReadAll(SieveModel sieveModel, CancellationToken cancellationToken)
 	{
 		var data = await _repository.SelectAll(sieveModel, null, cancellationToken);
 		await _unitOfWork.CommitAsync(cancellationToken);
-		return data;
-		
+		return new Response<List<T>>
+		{
+			Data = data,
+			RecordsTotal = data.Count,
+			RecordsFiltered = data.Count,
+			Message = "Data Loaded",
+			IsSuccess = true
+		};
 	}
-	public async Task Update(T t, CancellationToken cancellationToken)
+
+	public async Task<Response?> Update(T t, CancellationToken cancellationToken)
 	{
 		await _repository.Update(t, cancellationToken);
 		await _unitOfWork.CommitAsync(cancellationToken);
+		return new Response
+		{
+			IsSuccess = true,
+			ChangedId = t.Id,
+			Message = "Entity Updated"
+		};
 	}
 
-	public async Task Delete(T t, CancellationToken cancellationToken)
+	public async Task<Response?> Delete(T t, CancellationToken cancellationToken)
 	{
 		await _repository.Delete(t, cancellationToken);
 		await _unitOfWork.CommitAsync(cancellationToken);
+		return new Response
+		{
+			IsSuccess = true,
+			ChangedId = t.Id,
+			Message = "Entity Deleted"
+		};
 	}
 
-	public async Task Delete(int id, CancellationToken cancellationToken)
+	public async Task<Response?> Delete(int Id, CancellationToken cancellationToken)
 	{
-		await _repository.Delete(id, cancellationToken);
+		await _repository.Delete(Id, cancellationToken);
 		await _unitOfWork.CommitAsync(cancellationToken);
+		return new Response
+		{
+			IsSuccess = true,
+			ChangedId = Id,
+			Message = "Entity Deleted"
+		};
 	}
 }

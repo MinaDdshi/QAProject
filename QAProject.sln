@@ -9,15 +9,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QAProject.Model", "QAProjec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QAProject.DataAccess", "QAProject.DataAccess\QAProject.DataAccess.csproj", "{85212996-E5B3-4A16-9315-310BE3713A79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QAProject.Common", "QAProject.Common\QAProject.Common.csproj", "{38D32A35-561F-4822-8913-40BDF122103E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QAProject.Common", "QAProject.Common\QAProject.Common.csproj", "{38D32A35-561F-4822-8913-40BDF122103E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QAProject.Business", "QAProject.Business\QAProject.Business.csproj", "{8E12DCDB-8DF9-4A41-9E1B-A49D8E010372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QAProject.Business", "QAProject.Business\QAProject.Business.csproj", "{8E12DCDB-8DF9-4A41-9E1B-A49D8E010372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QAProject.Api", "QAProject.Api\QAProject.Api.csproj", "{63AC0455-529D-4458-94D4-7F3E1A237CAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QAProject.Api", "QAProject.Api\QAProject.Api.csproj", "{63AC0455-529D-4458-94D4-7F3E1A237CAC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{88F851A1-C5F2-4447-983B-8F9D25A6F1B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QAProject.Web", "QAProject.Web\QAProject.Web.csproj", "{2472DA23-EE6A-4F02-AD7D-1A3D6B133141}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QAProject.Web", "QAProject.Web\QAProject.Web.csproj", "{2472DA23-EE6A-4F02-AD7D-1A3D6B133141}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BFEF962A-0363-48EA-9267-F3BDE75C36FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{9ADDC3F0-2025-45B2-A8DB-1F61ADE529BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QAProject.IntegrationTest", "QAProject.Integration.Test\QAProject.IntegrationTest.csproj", "{CE4145AA-BC0A-4D36-A27A-C6739DB7BB63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +55,10 @@ Global
 		{2472DA23-EE6A-4F02-AD7D-1A3D6B133141}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2472DA23-EE6A-4F02-AD7D-1A3D6B133141}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2472DA23-EE6A-4F02-AD7D-1A3D6B133141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4145AA-BC0A-4D36-A27A-C6739DB7BB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4145AA-BC0A-4D36-A27A-C6739DB7BB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4145AA-BC0A-4D36-A27A-C6739DB7BB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4145AA-BC0A-4D36-A27A-C6739DB7BB63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +70,8 @@ Global
 		{8E12DCDB-8DF9-4A41-9E1B-A49D8E010372} = {6064AC96-A853-475A-BDD2-592C3A347ECD}
 		{63AC0455-529D-4458-94D4-7F3E1A237CAC} = {6064AC96-A853-475A-BDD2-592C3A347ECD}
 		{2472DA23-EE6A-4F02-AD7D-1A3D6B133141} = {88F851A1-C5F2-4447-983B-8F9D25A6F1B2}
+		{9ADDC3F0-2025-45B2-A8DB-1F61ADE529BD} = {BFEF962A-0363-48EA-9267-F3BDE75C36FD}
+		{CE4145AA-BC0A-4D36-A27A-C6739DB7BB63} = {9ADDC3F0-2025-45B2-A8DB-1F61ADE529BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDF214B2-D9F8-47EE-B325-725DD0A29F99}

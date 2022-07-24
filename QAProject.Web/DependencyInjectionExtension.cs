@@ -15,6 +15,7 @@ using System.Resources;
 using Microsoft.AspNetCore.ResponseCompression;
 using System.IO.Compression;
 using QAProject.Common;
+using NLog.Web;
 
 namespace QAProject.Web;
 
@@ -45,6 +46,17 @@ internal static class DependencyInjectionExtension
         IConfiguration configuration, IWebHostEnvironment environment) =>
         services.AddDbContextPool<QAProjectContext>(options =>
                 options.UseInMemoryDatabase("InMemory"));
+
+    internal static IServiceCollection InjectNLog(this IServiceCollection services,
+        IWebHostEnvironment environment)
+    {
+        var factory = NLogBuilder.ConfigureNLog(
+                environment.IsProduction()
+                    ? "nlog.config"
+                    : $"nlog.{environment.EnvironmentName}.config");
+        return services.AddSingleton(_ => factory.GetLogger("Info"))
+            .AddSingleton(_ => factory.GetLogger("Error"));
+    }
 
     internal static IServiceCollection InjectSieve(this IServiceCollection services) =>
         services.AddScoped<ISieveProcessor, SieveProcessor>();

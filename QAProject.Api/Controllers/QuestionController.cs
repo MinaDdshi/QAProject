@@ -22,13 +22,15 @@ public class QuestionController : BaseController<Question>
     _questionBusiness = questionBusiness;
 
     [HttpPut("Upvote")]
+    [Route("Upvote")]
     public async Task<ActionResult> Upvote(int Id, CancellationToken cancellationToken)
     {
         await _questionBusiness!.Upvote(Id, cancellationToken);
         return Ok();
     }
 
-    [HttpPut("Downvote")]
+    [HttpPut]
+    [Route("Downvote")]
     public async Task<ActionResult> Downvote(int Id, CancellationToken cancellationToken)
     {
         await _questionBusiness!.Downvote(Id, cancellationToken);

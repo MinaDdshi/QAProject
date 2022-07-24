@@ -24,8 +24,11 @@ public class BaseRepository<T> : IBaseRepository<T> where T : BaseEntity
         _processor = processor;
     }
 
-    public async Task<T> Insert(T t, CancellationToken cancellationToken = new()) =>
-        (await _dbSet.AddAsync(t, cancellationToken)).Entity;
+    public async Task<T> Insert(T t, CancellationToken cancellationToken = new())
+    {
+        var filan = (await _dbSet.AddAsync(t, cancellationToken)).Entity;
+        return filan;
+    }
 
 
     public async Task<List<T>> SelectAll(SieveModel sieveModel, Func<IQueryable<T>, IIncludableQueryable<T, object?>>? include = null,

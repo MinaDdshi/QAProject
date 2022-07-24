@@ -20,21 +20,24 @@ public class AnswerController : BaseController<Answer>
 
     _answerBusiness = answerBusiness;
 
-    [HttpPut("Upvote")]
+    [HttpPut]
+    [Route("Upvote")]
     public async Task<ActionResult> Upvote(int Id, CancellationToken cancellationToken)
     {
         await _answerBusiness!.Upvote(Id, cancellationToken);
         return Ok();
     }
 
-    [HttpPut("Downvote")]
+    [HttpPut]
+    [Route("Downvote")]
     public async Task<ActionResult> Downvote(int Id, CancellationToken cancellationToken)
     {
         await _answerBusiness!.Downvote(Id, cancellationToken);
         return Ok();
     }
 
-    [HttpPut("IsCorrect")]
+    [HttpPut]
+    [Route("IsCorrect")]
     public async Task<ActionResult> IsCorrect(int Id, CancellationToken cancellationToken)
     {
         await _answerBusiness!.IsCorrect(Id, cancellationToken);
