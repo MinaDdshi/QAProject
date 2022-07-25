@@ -19,6 +19,8 @@ public class QAProjectContext : DbContext
     public DbSet<Answer>? Answers { get; set; }
     public DbSet<CommentQuestion>? CommentQuestions { get; set; }
     public DbSet<CommentAnswer>? CommentAnswers { get; set; }
+    public DbSet<VoteQuestion>? VoteQuestions { get; set; }
+    public DbSet<VoteAnswer>? VoteAnswers { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -39,5 +39,18 @@ public class QuestionBusiness : BaseBusiness<Question>
 			ChangedId = Id,
 			Message = "Decreased"
 		};
+
+	}public async Task<Response?> VoteCheck(int Id, CancellationToken cancellationToken)
+	{
+		await _unitOfWork.QuestionRepository!.VoteCheck(Id);
+		await _unitOfWork.CommitAsync(cancellationToken);
+		return new Response
+		{
+			IsSuccess = true,
+			ChangedId = Id,
+			Message = "voteCheck"
+		};
 	}
+
+
 }

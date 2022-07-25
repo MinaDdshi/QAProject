@@ -23,5 +23,6 @@ public class Question : BaseEntity
     public int RankUser { get; set; }
     public virtual ICollection<Answer>? Answers { get; set; }
     public virtual ICollection<CommentQuestion>? CommentQuestions { get; set; }
+    public virtual ICollection<VoteQuestion>? VoteQuestions { get; set; }
 }
 

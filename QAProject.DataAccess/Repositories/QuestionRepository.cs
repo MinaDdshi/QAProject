@@ -1,4 +1,5 @@
-﻿using QAProject.DataAccess.Base;
+﻿using Microsoft.EntityFrameworkCore;
+using QAProject.DataAccess.Base;
 using QAProject.DataAccess.Context;
 using QAProject.Model.Entities;
 using Sieve.Services;
@@ -22,7 +23,6 @@ public class QuestionRepository : BaseRepository<Question>
         var question = _context.Questions!.FirstOrDefault(x => x.Id == Id);
         question!.Upvote = question.Upvote + 1;
         await Task.FromResult(_context.Questions!.Update(question));
-
     }
 
     public async Task Downvote(int Id, CancellationToken cancellationToken = new())
@@ -30,5 +30,14 @@ public class QuestionRepository : BaseRepository<Question>
         var question = _context.Questions!.FirstOrDefault(x => x.Id == Id);
         question!.Downvote = question.Downvote + 1;
         await Task.FromResult(_context.Questions!.Update(question));
+    }
+
+    public async Task VoteCheck(int Id, CancellationToken cancellationToken = new())
+    { 
+        var voteCheck = await _context.Questions!
+            .Where(x => x.Id == Id)
+            .Include(x => x.VoteQuestions)
+            .Select(x => x.UserId)
+            .ToListAsync(cancellationToken);
     }
 }

@@ -27,5 +27,6 @@ public class Answer : BaseEntity
     [Sieve(CanFilter = true, CanSort = true)]
     public int RankUser { get; set; }
     public ICollection<CommentAnswer>? CommentAnswers { get; set; }
+    public virtual ICollection<VoteAnswer>? VoteAnswers { get; set; }
 }
 
