@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using NLog.Web;
 using QAProject.DataAccess.Context;
 using QAProject.Web;
@@ -16,6 +17,10 @@ var logger = NLogBuilder.ConfigureNLog(
 			? "nlog.config"
 			: $"nlog.{builder.Environment.EnvironmentName}.config")
 	.GetLogger("Info");
+
+builder.Services.AddDbContextPool<QAProjectContext>(options =>
+				options.UseInMemoryDatabase("InMemory"));
+
 
 try
 {
@@ -41,7 +46,7 @@ try
 
 	await context.Database.EnsureCreatedAsync();
 
-	if (app.Environment.IsDevelopment() || app.Environment.IsEnvironment("Testing"))
+	if (app.Environment.IsDevelopment())
 		app.UseDeveloperExceptionPage()
 			.UseSwagger()
 			.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json",

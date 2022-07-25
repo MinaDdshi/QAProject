@@ -16,7 +16,7 @@ namespace QAProject.Api.Base;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorization]
+//[Authorization]
 public class BaseController<T> : ControllerBase, IBaseController<T> where T : BaseEntity
 {
 	private readonly IBaseBusiness<T> _business;

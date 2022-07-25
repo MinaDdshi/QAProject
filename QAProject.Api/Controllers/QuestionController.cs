@@ -21,7 +21,7 @@ public class QuestionController : BaseController<Question>
 
     _questionBusiness = questionBusiness;
 
-    [HttpPut("Upvote")]
+    [HttpPut]
     [Route("Upvote")]
     public async Task<ActionResult> Upvote(int Id, CancellationToken cancellationToken)
     {

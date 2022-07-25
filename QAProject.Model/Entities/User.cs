@@ -13,10 +13,9 @@ public class User : BaseEntity
     [Sieve(CanFilter = true, CanSort = true)]
     public string? Username { get; set; }
     public string? Password { get; set; }
-    public int UserRoleId { get; set; }
     [Sieve(CanFilter = true, CanSort = true)]
-    public Person? Person { get; set; }
-    [ForeignKey("Person")]
     public int PersonId { get; set; }
+    [ForeignKey("PersonId")]
+    public Person? Person { get; set; }
     public virtual ICollection<UserRole>? UserRoles { get; set; }
 }

@@ -22,6 +22,7 @@ public class QuestionRepository : BaseRepository<Question>
         var question = _context.Questions!.FirstOrDefault(x => x.Id == Id);
         question!.Upvote = question.Upvote + 1;
         await Task.FromResult(_context.Questions!.Update(question));
+
     }
 
     public async Task Downvote(int Id, CancellationToken cancellationToken = new())
