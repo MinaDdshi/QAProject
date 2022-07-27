@@ -53,4 +53,90 @@ public class AnswerBusiness : BaseBusiness<Answer>
 			Message = "Selected"
 		};
 	}
+
+	public async Task<Response?> IsUserUpvoteExist(int Id, CancellationToken cancellationToken = new())
+	{
+		var user = await _unitOfWork.QuestionRepository!.IsUserUpvoteExist(Id, cancellationToken);
+
+		if (!user)
+		{
+			await _unitOfWork.QuestionRepository!.Upvote(Id);
+			await _unitOfWork.CommitAsync(cancellationToken);
+
+			return new Response
+			{
+				IsSuccess = true,
+				ChangedId = Id,
+				Message = "Upvote"
+			};
+		}
+		else
+		{
+			return new Response
+			{
+				IsSuccess = false,
+				ChangedId = Id,
+				Message = "User Not Found"
+			};
+		}
+	}
+
+	public async Task<Response?> IsUserDownvoteExist(int Id, CancellationToken cancellationToken = new())
+	{
+		var user = await _unitOfWork.QuestionRepository!.IsUserDownvoteExist(Id, cancellationToken);
+
+		if (!user)
+		{
+			await _unitOfWork.QuestionRepository!.Downvote(Id);
+			await _unitOfWork.CommitAsync(cancellationToken);
+
+			return new Response
+			{
+				IsSuccess = true,
+				ChangedId = Id,
+				Message = "Downvote"
+			};
+		}
+		else
+		{
+			return new Response
+			{
+				IsSuccess = false,
+				ChangedId = Id,
+				Message = "User Not Found"
+			};
+		}
+	}
+
+	public async Task<Response?> RankAnswer(int Id, CancellationToken cancellationToken)
+	{
+		var question = await _unitOfWork.QuestionRepository!.LoadByQuestionId(Id);
+		var diffrence = question!.Upvote - question.Downvote;
+
+		if (diffrence < 0)
+		{
+			question.RankQuestion -= diffrence;
+		}
+		else if (diffrence > 0)
+		{
+			question.RankQuestion += diffrence;
+		}
+		else
+		{
+			return new Response
+			{
+				IsSuccess = false,
+				ChangedId = Id,
+				Message = "No Change"
+			};
+
+		}
+		await _unitOfWork.CommitAsync(cancellationToken);
+		return new Response
+		{
+			IsSuccess = true,
+			ChangedId = Id,
+			Message = "Changed"
+		};
+	}
 }

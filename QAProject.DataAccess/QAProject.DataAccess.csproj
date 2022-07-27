@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\QAProject.Common\QAProject.Common.csproj" />
     <ProjectReference Include="..\QAProject.Model\QAProject.Model.csproj" />
   </ItemGroup>
 

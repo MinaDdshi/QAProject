@@ -1,4 +1,5 @@
-﻿using QAProject.DataAccess.Base;
+﻿using Microsoft.EntityFrameworkCore;
+using QAProject.DataAccess.Base;
 using QAProject.DataAccess.Context;
 using QAProject.Model.Entities;
 using Sieve.Services;
@@ -37,4 +38,17 @@ public class AnswerRepository : BaseRepository<Answer>
         answer!.IsCorrectAnswer = true;
         await Task.FromResult(_context.Answers!.Update(answer));
     }
+
+    public async Task<bool> IsUserUpvoteExist(int Id, CancellationToken cancellationToken = new()) =>
+        await _context.VoteQuestions!
+            .AnyAsync(x => x.UserId == Id, cancellationToken);
+
+
+    public async Task<bool> IsUserDownvoteExist(int Id, CancellationToken cancellationToken = new()) =>
+        await _context.VoteQuestions!
+            .AnyAsync(x => x.UserId == Id, cancellationToken);
+
+    public async Task<Answer?> LoadByAnswerId(int Id, CancellationToken cancellationToken = new()) =>
+       (await _context.Answers!
+           .SingleOrDefaultAsync(x => x.Id == Id, cancellationToken))!;
 }

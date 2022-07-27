@@ -10,13 +10,44 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7",
+          "QAProject.Common": "1.0.0",
           "QAProject.Model": "1.0.0"
         },
         "runtime": {
           "QAProject.DataAccess.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
+      "AutoMapper/11.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.1.0"
+          }
+        }
+      },
+      "AutoMapper.Collection/8.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Collection.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FluentValidation/11.1.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.1.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.SqlClient/2.1.4": {
         "dependencies": {
           "Microsoft.Data.SqlClient.SNI.runtime": "2.1.1",
@@ -281,7 +312,7 @@
       },
       "Microsoft.IdentityModel.Tokens/6.8.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "Microsoft.IdentityModel.Logging": "6.8.0",
           "System.Security.Cryptography.Cng": "4.5.0"
         },
@@ -318,9 +349,17 @@
           }
         }
       },
+      "NLog/5.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.1159"
+          }
+        }
+      },
       "Sieve/2.5.5": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "System.ComponentModel.Annotations": "4.4.1"
         },
@@ -472,6 +511,18 @@
           }
         }
       },
+      "QAProject.Common/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "AutoMapper.Collection": "8.0.0",
+          "FluentValidation": "11.1.0",
+          "NLog": "5.0.1",
+          "QAProject.Model": "1.0.0"
+        },
+        "runtime": {
+          "QAProject.Common.dll": {}
+        }
+      },
       "QAProject.Model/1.0.0": {
         "dependencies": {
           "Sieve": "2.5.5"
@@ -488,12 +539,33 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.CSharp/4.5.0": {
+    "AutoMapper/11.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+      "sha512": "sha512-WIadGC1pIwbnyTubvI577p3F++Bsj9q2Q3OaAc1I0QS+JhupN1xkdrPBhI9bPIeg63zM81tZplUNYkqU1HE5jQ==",
+      "path": "automapper/11.0.1",
+      "hashPath": "automapper.11.0.1.nupkg.sha512"
+    },
+    "AutoMapper.Collection/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GrW7DOb33f0FQP3I6lwFuyaA1TrQilEMB1NaI35/e0x+7Zjjc/xnKDmQm0tbWyQ3Z/CTBX/PSHZTMtUzF+9Xdw==",
+      "path": "automapper.collection/8.0.0",
+      "hashPath": "automapper.collection.8.0.0.nupkg.sha512"
+    },
+    "FluentValidation/11.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ld7w+2jOmnhQqFkngEGuEWTRa5j6u4Xzli7jKxRtbA5PtuHHcpin01qxvxYL0LomeJuzRMGAOURu2rKONdjKQA==",
+      "path": "fluentvalidation/11.1.0",
+      "hashPath": "fluentvalidation.11.1.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient/2.1.4": {
       "type": "package",
@@ -670,6 +742,13 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
+    "NLog/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lNErNEPzYiZtUAlgvXpSRxUIPLIDHTLA8pKxkDDV//DCqzwp98FitFemOEmJjIuPvk3GC3ytrQMXsy7P9RTPIw==",
+      "path": "nlog/5.0.1",
+      "hashPath": "nlog.5.0.1.nupkg.sha512"
+    },
     "Sieve/2.5.5": {
       "type": "package",
       "serviceable": true,
@@ -781,6 +860,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "QAProject.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "QAProject.Model/1.0.0": {
       "type": "project",

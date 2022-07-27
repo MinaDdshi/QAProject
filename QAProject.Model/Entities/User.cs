@@ -17,5 +17,9 @@ public class User : BaseEntity
     public int PersonId { get; set; }
     [ForeignKey("PersonId")]
     public Person? Person { get; set; }
+    [Sieve(CanFilter = true, CanSort = true)]
+    public int RankUser { get; set; }
     public virtual ICollection<UserRole>? UserRoles { get; set; }
+    public virtual ICollection<Question>? Questions { get; set; }
+    public virtual ICollection<Answer>? Answers { get; set; }
 }

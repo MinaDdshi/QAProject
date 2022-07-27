@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Sieve.Extensions.MethodInfoExtended;
 
 namespace QAProject.DataAccess.Repositories;
 
@@ -32,4 +33,5 @@ public class UserRepository : BaseRepository<User>
 			.AnyAsync(x => string.Equals(x.Username, username, StringComparison.CurrentCultureIgnoreCase),
 				cancellationToken);
 }
+
 

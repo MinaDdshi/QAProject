@@ -25,7 +25,9 @@ public class QuestionController : BaseController<Question>
     [Route("Upvote")]
     public async Task<ActionResult> Upvote(int Id, CancellationToken cancellationToken)
     {
+        await _questionBusiness!.IsUserUpvoteExist(Id, cancellationToken);
         await _questionBusiness!.Upvote(Id, cancellationToken);
+        await _questionBusiness!.RankQuestion(Id, cancellationToken);
         return Ok();
     }
 
@@ -33,7 +35,25 @@ public class QuestionController : BaseController<Question>
     [Route("Downvote")]
     public async Task<ActionResult> Downvote(int Id, CancellationToken cancellationToken)
     {
+        await _questionBusiness!.IsUserDownvoteExist(Id, cancellationToken);
         await _questionBusiness!.Downvote(Id, cancellationToken);
+        await _questionBusiness!.RankQuestion(Id, cancellationToken);
         return Ok();
     }
+
+    //[HttpPut]
+    //[Route("IsUserUpvoteExist")]
+    //public async Task<ActionResult> IsUserUpvoteExist(int Id, CancellationToken cancellationToken)
+    //{
+    //    await _questionBusiness!.IsUserUpvoteExist(Id, cancellationToken);
+    //    return Ok();
+    //}
+
+    //[HttpPut]
+    //[Route("IsUserDownvoteExist")]
+    //public async Task<ActionResult> IsUserDownvoteExist(int Id, CancellationToken cancellationToken)
+    //{
+    //    await _questionBusiness!.IsUserDownvoteExist(Id, cancellationToken);
+    //    return Ok();
+    //}
 }

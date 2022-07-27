@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DhYQKuk9rPLU2Owzt+Bskxv4j8fqjb0y9Co5hdsE5XoE+PBaY1PAg7WuPR0Pn8w1+QLzvtL5FBep6Z0Se5cq2w==",
+  "dgSpecHash": "kTFD/GBZ3h+efFyQtEdZCcgNLjNnUb1595iUN3unx9vbKmJea2J1gmmw+CV++eSw6Kn1GFZfWtzGyUm3aRk50Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mina.Dadashi\\source\\repos\\QAProject\\QAProject.DataAccess\\QAProject.DataAccess.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\automapper.collection\\8.0.0\\automapper.collection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
+    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
@@ -30,6 +33,7 @@
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\nlog\\5.0.1\\nlog.5.0.1.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\sieve\\2.5.5\\sieve.2.5.5.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Mina.Dadashi\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",

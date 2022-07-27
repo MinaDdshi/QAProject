@@ -24,8 +24,6 @@ public class Answer : BaseEntity
     public bool IsCorrectAnswer { get; set; }
     [Sieve(CanFilter = true, CanSort = true)]
     public int RankAnswer { get; set; }
-    [Sieve(CanFilter = true, CanSort = true)]
-    public int RankUser { get; set; }
     public ICollection<CommentAnswer>? CommentAnswers { get; set; }
     public virtual ICollection<VoteAnswer>? VoteAnswers { get; set; }
 }
